@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    >
+  
+  
+<EditText  
+	 android:id="@+id/txtName"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:textColor="#00C000"
+    android:textStyle="bold"
+    >
+    </EditText>    
+<EditText  
+	 android:id="@+id/txtAddress"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:hint="Address"
+    android:textColor="#00C000"
+    android:textStyle="bold"
+    >
+    </EditText> 
+    
+<EditText  
+	 android:id="@+id/txtPhone"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:hint="Phone"
+    android:textColor="#00C000"
+    android:textStyle="bold"
+    >
+    </EditText>  
+    
+<TextView  
+	 android:id="@+id/txtpopularfood"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:text="Popular Food"
+    android:textColor="#00C000"
+    android:textStyle="bold"
+    >
+    </TextView>  
+ <CheckBox
+        android:id="@+id/chkBoxPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza" />
+ 
+ <CheckBox
+        android:id="@+id/chkBoxSandwich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandwich" />
+ 
+ <CheckBox
+        android:id="@+id/chkBoxBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger" />
+ <TextView  
+	 android:id="@+id/txtRating"
+    android:layout_width="250dp" 
+    android:layout_height="wrap_content"
+    android:text="Rating"
+    android:textColor="#00C000"
+    android:textStyle="bold"
+    >
+    </TextView>  
+ 
+ <RadioGroup
+     android:id="@+id/rg1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+     
+     <RadioButton
+      android:id="@+id/optionGood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good" />   
+     
+     <RadioButton
+      android:id="@+id/optionExcellent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excellent" />  
+        
+ 
+     <RadioButton
+      android:id="@+id/optionModerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moderate" />       
+     
+ </RadioGroup> 
+  
+<Button
+     android:id="@+id/btnFriendAdd"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="Add Place"
+    android:textColor="#00C000"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+     android:onClick="onClick"
+    
+    >
+       
+ </Button>    
+
+</LinearLayout>

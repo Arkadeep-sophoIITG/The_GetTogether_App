@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/rootRL"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app5">
+
+
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Pizza Hut"
+            android:textColor="#161c03"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+         </EditText>
+
+        <EditText
+                android:id="@+id/txtAddress"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"
+                android:textColor="#161c03"
+                android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+            </EditText>
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="048587589"
+            android:textColor="#161c03"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_alignTop="@+id/txtAddress"
+            android:layout_alignParentStart="true">
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/txtpopularFood"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Popular Food"
+            android:textColor="#161c03"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="405dp"
+            android:layout_alignParentBottom="true">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/chkBoxPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155dp"
+            android:text="Pizza" />
+
+        <CheckBox
+            android:id="@+id/chkBoxSandwich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandwich"
+            android:layout_marginTop="180dp"
+            />
+
+        <CheckBox
+            android:id="@+id/chkBoxBurger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger"
+            android:layout_marginTop="205dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="270dp"
+            >
+
+            <RadioButton
+                android:id="@+id/optionGood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good" />
+
+            <RadioButton
+                android:id="@+id/optionExcellent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excellent" />
+
+
+            <RadioButton
+                android:id="@+id/optionModerate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moderate" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnPlaceUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Place"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:layout_marginTop="405dp"
+
+            >
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_below="@+id/chkBoxBurger"
+            android:layout_alignParentStart="true">
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

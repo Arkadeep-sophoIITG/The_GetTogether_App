@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:id="@+id/rootRL"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/app5"
+        android:layout_weight="0.96">
+
+
+        <TextView
+         android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get together of 2012 batch"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+            android:layout_marginTop="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtPlace">
+        </TextView>
+
+        <TextView
+           android:id="@+id/txtFriend"
+          android:layout_width="261dp"
+          android:layout_height="wrap_content"
+          android:text="Sakhi, Mili, Ananya"
+          android:textColor="#00C000"
+          android:textStyle="bold"
+            android:layout_weight="0.85"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/txtDescription"
+            android:layout_alignParentEnd="true">
+          </TextView>
+
+        <TextView
+         android:id="@+id/txtPlace"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Pizza Hut"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+            android:layout_weight="0.06"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/txtFriend"
+            android:layout_alignEnd="@+id/txtDateTime">
+        </TextView>
+
+        <TextView
+         android:id="@+id/txtDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12th Aug 2013 4:00 pm"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/txtPlace"
+            android:layout_centerHorizontal="true">
+        </TextView>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="339dp"
+        android:layout_height="0dp"
+        android:text="Alumni Meet"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+        >
+    </TextView>
+
+
+</LinearLayout>

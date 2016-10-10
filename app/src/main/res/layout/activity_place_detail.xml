@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:id="@+id/rootRL"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app8" >
+
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza Hut"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panbazar,Guwahati,Assam"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/txtName"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0774993748"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            >
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_above="@+id/txtAddress">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/txtpopularfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/txtPhone">
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

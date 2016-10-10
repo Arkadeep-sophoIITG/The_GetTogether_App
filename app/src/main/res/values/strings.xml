@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetTogether</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title">THE GET TOGETHER APP</string>
+    <string name="splash_title">Welcome!!</string>
+    <string name="splash_desc">The Get Together App helps you organize get togethers with your loved ones.</string>
+	<color name="dark_orange">#e65c00</color>
+	<string name="home_screen_name">GetTogether - Home</string>
+	<string name="searchPlaces_screen_name">GetTogether - Search Places</string>
+	<string name="friends_screen_name">GetTogether - Friends</string>
+	<string name="friendAdd_screen_name">GetTogether - Add Friend</string>
+	<string name="friendDetail_screen_name">GetTogether - Friend Detail</string>
+	<string name="friendUpdate_screen_name">GetTogether - Update Friend</string>
+	<string name="gettogethers_screen_name">GetTogether - Get-togethers</string>
+	<string name="gettogetherAdd_screen_name">GetTogether - Add Get-together</string>
+	<string name="gettogetherDetail_screen_name">GetTogether - Get-together Detail</string>
+	<string name="gettogetherUpdate_screen_name">GetTogether - Update Get-together</string>
+	<string name="places_screen_name">GetTogether - Places</string>
+	<string name="placeAdd_screen_name">GetTogether - Add Place</string>
+	<string name="placeDetail_screen_name">GetTogether - Place Detail</string>
+	<string name="placeUpdate_screen_name">GetTogether - Update Place</string>
+	<string name="about_text">\nLicensed under the Apache License v2.\n \t \t \t Source available on <a href="https://github.com/opticod/PopularMovies">GitHub</a>.\n</string>
+	<string name="title_activity_about">About</string>
+
+</resources>

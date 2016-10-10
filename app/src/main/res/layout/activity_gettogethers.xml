@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+	android:weightSum="1">"
+
+
+	<RelativeLayout
+		android:id="@+id/rootRL"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="496dp"
+		android:background="@drawable/app5"
+		android:layout_weight="3.20" >
+
+		<ListView
+    android:id="@+id/lstGetTogethers"
+    android:layout_height="fill_parent"
+    android:layout_width="302dp"
+			android:layout_marginTop="60dp"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true" >
+</ListView>
+	</RelativeLayout>
+
+
+
+
+
+</LinearLayout>

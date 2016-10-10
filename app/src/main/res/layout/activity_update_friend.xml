@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/rootRL"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app7">
+
+        <EditText
+         android:id="@+id/txtName1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sakhi"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+            android:layout_marginTop="51dp"
+            android:layout_weight="0.29"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+        </EditText>
+
+        <EditText
+         android:id="@+id/txtEmail1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="sakhi@gmail.com"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+            android:layout_below="@+id/txtName1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp">
+        </EditText>
+
+        <Button
+         android:id="@+id/btnFriendUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Friend"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+         android:onClick="onClick"
+
+            android:layout_below="@+id/txtPhone1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp">
+
+     </Button>
+
+        <EditText
+         android:id="@+id/txtPhone1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="048493849"
+        android:textColor="#00C000"
+        android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/txtEmail1"
+            android:layout_alignParentStart="true">
+        </EditText>
+    </RelativeLayout>
+
+
+</LinearLayout>

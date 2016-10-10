@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ernet.arkadeepiitg.the_gettogether_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="24" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.HomeActivity"
+            android:label="@string/home_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.HomeActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.SearchPlacesActivity"
+            android:label="@string/searchPlaces_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.SearchPlacesActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendsActivity"
+            android:label="@string/friends_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendAddActivity"
+            android:label="@string/friendAdd_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendAddActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendDetailActivity"
+            android:label="@string/friendDetail_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendUpdateActivity"
+            android:label="@string/friendUpdate_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.FriendUpdateActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogethersActivity"
+            android:label="@string/gettogethers_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogethersActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogetherAddActivity"
+            android:label="@string/gettogetherAdd_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogetherAddActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogetherDetailActivity"
+            android:label="@string/gettogetherDetail_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogetherDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogetherUpdateActivity"
+            android:label="@string/gettogetherUpdate_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.GetTogetherUpdateActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlacesActivity"
+            android:label="@string/places_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlacesActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlaceAddActivity"
+            android:label="@string/placeAdd_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlaceAddActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlaceDetailActivity"
+            android:label="@string/placeDetail_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlaceDetailActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlaceUpdateActivity"
+            android:label="@string/placeUpdate_screen_name" >
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.PlaceUpdateActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name=".BingTranslator"
+            android:label="BingTranslator cum Speech">
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.BingTranslator"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".About"
+            android:label="Behind the scenes">
+            <intent-filter>
+                <action android:name="in.ernet.arkadeepiitg.the_gettogether_app.About"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+	android:weightSum="1">"
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/rootRL"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="287dp"
+		android:background="@drawable/app4"
+		android:layout_weight="1.07">>
+		<ListView
+        android:id="@+id/lstPlaces"
+        android:layout_height="fill_parent"
+        android:layout_width="302dp"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="16dp">
+    </ListView>
+	</RelativeLayout>
+
+
+</LinearLayout>

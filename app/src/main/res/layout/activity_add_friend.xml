@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/rootRL"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="213dp"
+        android:background="@drawable/app6"
+        android:layout_weight="0.85">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/txtName"
+            android:layout_alignParentStart="true">
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/txtEmail"
+            android:layout_alignParentStart="true">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnFriendAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Friend"
+            android:textColor="#00C000"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+
+            android:layout_marginStart="72dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
+
+        </Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/etUserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvTranslatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="168dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="Translate"
+        android:layout_below="@+id/etUserText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Speak"
+        android:layout_below="@+id/L8"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HINDI"
+        android:id="@+id/L1"
+        android:onClick="onCheckboxClicked"
+        android:checked="false"
+        android:layout_below="@+id/L8"
+        android:layout_alignStart="@+id/L4" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPANISH"
+        android:id="@+id/L3"
+        android:onClick="onCheckboxClicked"
+        android:layout_below="@+id/L4"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARABIC"
+        android:id="@+id/L4"
+        android:checked="false"
+        android:layout_below="@+id/bTranslate"
+        android:layout_toStartOf="@+id/etUserText"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PORTUGESE"
+        android:id="@+id/L5"
+        android:onClick="onCheckboxClicked"
+        android:layout_below="@+id/bTranslate"
+        android:layout_toEndOf="@+id/etUserText" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHINESE"
+        android:id="@+id/L7"
+        android:onClick="onCheckboxClicked"
+        android:checked="false"
+        android:layout_alignTop="@+id/L1"
+        android:layout_alignStart="@+id/L5" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUSSIAN"
+        android:id="@+id/L8"
+        android:onClick="onCheckboxClicked"
+        android:checked="false"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/tvTranslatedText"
+        android:layout_alignStart="@+id/L3" />
+
+</RelativeLayout>

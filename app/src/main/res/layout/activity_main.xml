@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+	android:weightSum="1">"
+
+
+
+
+	<ImageView
+		android:id="@+id/imgSplashIcon"
+		android:layout_width="match_parent"
+		android:layout_height="355dp"
+		android:gravity="center"
+		android:src="@drawable/logo_big"
+
+		android:layout_marginBottom="0dp" >
+	</ImageView>
+
+	<Button
+		android:id="@+id/btnProceed"
+		android:layout_width="154dp"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="LAUNCH"
+		android:background="@android:color/holo_green_dark"
+		android:textColor="@color/button_text"
+		android:onClick="onClick"
+		android:layout_gravity="center_horizontal" />
+
+	<TextView
+		android:id="@+id/splash_desc"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:textStyle="italic"
+		android:textColor="@color/dark_orange"
+		android:gravity="center"
+		android:paddingTop="10dip" />
+
+
+</LinearLayout>
+
+
+
+
+
+
